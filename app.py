@@ -8,7 +8,7 @@ import joblib
 # Load the dataset and model training logic
 def load_data():
     
-    df = pd.read_csv('your_dataset.csv')
+    df = pd.read_csv('Bengaluru_House_Data.csv')
     
     df = pd.DataFrame({
         'area_type': ['Super built-up  Area', 'Built-up  Area', 'Plot  Area'],
